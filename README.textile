@@ -9,4 +9,18 @@ h2. Outline and Brainstorm
 ** Developed Tatango
 ** Now work at Carnes Media
 
+* -Ruby (if needed)-
+
+* MVC
+
 * Top Down
+** View
+*** <%= %>
+*** formtastic
+*** Helper
+** Controller
+** Model
+
+* Security
+* Rails 3
+** Auto h
