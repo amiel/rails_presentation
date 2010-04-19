@@ -8,16 +8,21 @@ h2. Outline and Brainstorm
 ** Rails Developer since pre 1.0
 ** Developed Tatango
 ** Now work at Carnes Media
+* Why we use Rails.
 
 * -Ruby (if needed)-
 
 * MVC
 
+* Routing
+* REST
+
 * Top Down
 ** View
 *** <%= %>
 *** formtastic
-*** Helper
+** Helper
+*** A Sample helper
 ** Controller
 ** Model
 
