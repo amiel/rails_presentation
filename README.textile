@@ -9,22 +9,25 @@ h2. Outline and Brainstorm
 ** Developed Tatango
 ** Now work at Carnes Media
 * Why we use Rails.
-
-* -Ruby (if needed)-
+** rapid dev/ rapid prototying...
 
 * MVC
 
 * Routing
 * REST
 
-* Top Down
+* Bottom Up
+** Model
+*** AR examles with queries
+**** associations: has_many, belongs_to, habtm, has_many:through
+**** 
+**** named_scope
+** Controller
 ** View
 *** <%= %>
 *** formtastic
 ** Helper
 *** A Sample helper
-** Controller
-** Model
 
 * Security
 * Rails 3
