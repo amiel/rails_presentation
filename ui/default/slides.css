@@ -13,3 +13,6 @@
 	.slidecontent ul.table_schema li{ padding: 0.4em 0.8em; margin: 0; }
 		.slidecontent ul.table_schema .type{ float: right; }
 	.slidecontent ul.table_schema li.table_name{ background-color: #1B4F6E; color: #fff; }
+
+#slide8 .gist{ font-size: 55%; margin-top: -20px; }
+#slide12 .gist{ font-size: 70%; }
