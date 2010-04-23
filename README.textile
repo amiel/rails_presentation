@@ -5,9 +5,6 @@ h2. Outline and Brainstorm
 
 * I'm here to talk about ...
 * Who Am I?
-** Rails Developer since pre 1.0
-** Developed Tatango
-** Now work at Carnes Media
 * Why we use Rails.
 ** rapid dev/ rapid prototying...
 
