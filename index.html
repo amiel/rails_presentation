@@ -56,15 +56,6 @@
 		  </ul>
 	  </div>
 
-    <div class="slide">
-      <h1>Why Rails?</h1>
-      <ul>
-        <li>Ruby</li>
-        <li>Rapid Development</li>
-        <li>Rapid Prototyping</li>
-        <li>MVC helps designers work with developers</li>
-      </ul>
-    </div>
     
     <div class="slide">
       <h1>What is Rails?</h1>
@@ -75,12 +66,21 @@
     </div>
     
     <div class="slide">
+      <h1>Why Rails?</h1>
+      <ul>
+        <li>Ruby</li>
+        <li>Rapid Development</li>
+        <li>Rapid Prototyping</li>
+        <li>collaboration</li>
+      </ul>
+    </div>
+    
+    <div class="slide">
       <h1>Rails Philosophy</h1>
       <ul>
         <li>Convention Over Configuration</li>
         <li>MVC</li>
         <li>DRY</li>
-        <li>REST</li>
         <li>Testing</li>
       </ul>      
     </div>
@@ -126,15 +126,16 @@
       <div class="slidecontent">
         <ul class="table_schema">
           <li class="table_name">presenters</li>
-          <li>id<span class="type">integer</span></li>
-          <li>name<span class="type">string</span></li>
+          <li>id <span class="type">integer</span></li>
+          <li>name <span class="type">string</span></li>
+          <li>email <span class="type">string</span></li>
         </ul>
         
         <ul class="table_schema">
           <li class="table_name">talks</li>
-          <li>id<span class="type">integer</span></li>
-          <li>presenter_id<span class="type">integer</span></li>
-          <li>title<span class="type">string</span></li>
+          <li>id <span class="type">integer</span></li>
+          <li>presenter_id <span class="type">integer</span></li>
+          <li>title <span class="type">string</span></li>
         </ul>
       </div>
     </div>
@@ -151,6 +152,13 @@
       <h1>Convention Over Configuration</h1>
       <div class="slidecontent">
         <script src="http://gist.github.com/376118.js?file=talk_with_defaults.rb"></script>
+      </div>
+    </div>
+    
+    <div class="slide">
+      <h1>Extra Credit</h1>
+      <div class="slidecontent">
+        <script src="http://gist.github.com/376118.js?file=presenter_with_gravatar.rb"></script>
       </div>
     </div>
     
@@ -174,6 +182,18 @@
       <div class="slidecontent">
         <script src="http://gist.github.com/376118.js?file=talks_controller.rb"></script>
       </div>
+    </div>
+    
+    
+    <div class="slide">
+      <h1>Linux Fest Talks</h1>
+      <ol class="slidecontent" id="presenters">
+        <li style="background-image: url(http://www.gravatar.com/avatar/717f2120e2cacda5fd3bf45232f04e28.jpg?s=64);">Introduction to Rails <span class="presenter">Amiel Martin</span></li>
+        <li style="background-image: url(http://www.gravatar.com/avatar/3eab06e0ad828ec084b87ef21f281711.jpg?s=64);">Front End Development <span class="presenter">Nathan Carnes</span></li>
+        <li style="background-image: url(http://www.gravatar.com/avatar/7d21416bd932ecdafdec8a327e283d42.jpg?s=64);">Making Rails Interesting <span class="presenter">James Mason</span></li>
+        <li style="background-image: url(http://www.gravatar.com/avatar/d35a5eb6f89727228e599e82b3ddf0f4.jpg?s=64);">Deploying and Scaling Rails <span class="presenter">Adrian Pike</span></li>
+      </ol>
+    </div>
 	</div>
 	
 

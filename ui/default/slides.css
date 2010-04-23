@@ -4,7 +4,7 @@
 
 
 
-.slidecontent, .two-col{ width: 920px; margin: 2em auto; }
+.slidecontent, .two-col{ width: 80%; margin: 2em auto; }
 
 .addon{ position: absolute; top: -1em; line-height: 1em; font-size: 75%; }
 .incremental.addon{ display: none; }
@@ -16,3 +16,7 @@
 
 #slide8 .gist{ font-size: 55%; margin-top: -20px; }
 #slide12 .gist{ font-size: 70%; }
+
+#presenters{ list-style-type: none; }
+	#presenters li{ padding-left: 75px; height: 64px; background: transparent no-repeat left center; }
+	#presenters .presenter{ display: block; color: #333; font-size: 75%; padding-top: 3px; }
