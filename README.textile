@@ -29,6 +29,10 @@ h2. Outline and Brainstorm
 ** Helper
 *** A Sample helper
 
+* Testing
+
+* Active Support? -- titleize
+
 * Security
 * Rails 3
 ** Auto h
