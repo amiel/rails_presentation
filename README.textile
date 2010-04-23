@@ -8,7 +8,12 @@ h2. Outline and Brainstorm
 * Why we use Rails.
 ** rapid dev/ rapid prototying...
 
+* Do you know what a web framework is?
+* ...
+
 * MVC
+
+
 
 * Routing
 * REST

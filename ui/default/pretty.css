@@ -57,15 +57,14 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
 #controls #navList {height: 1em;}
 #controls #navList #jumplist {position: absolute; bottom: 0; right: 0; color: #1B4F6E; }
 
-#currentSlide {text-align: center; font-size: 0.5em; color: #449;}
+#currentSlide {text-align: center; font-size: 0.5em; color: #e5e5e5;}
 
-#slide0 {padding-top: 3.5em; font-size: 90%;}
-#slide0 h1 {position: static; margin: 1em 0 0; padding: 0;
-   font: bold 2em Helvetica, sans-serif; white-space: normal;
-   color: #1B4F6E; background: transparent;}
-#slide0 h2 {font: bold italic 1em Helvetica, sans-serif; margin: 0.25em;}
-#slide0 h3 {margin-top: 1.5em; font-size: 1.5em;}
-#slide0 h4 {margin-top: 0; font-size: 1em;}
+.section_heading {padding-top: 3.5em; font-size: 90%; background: url(../images/content.jpg); color: #fff; }
+.section_heading h1 {position: static; margin: 1em 0 0; padding: 0;
+   font: bold 2em Helvetica, sans-serif; white-space: normal;}
+.section_heading h2 {font: bold italic 1em Helvetica, sans-serif; margin: 0.25em;}
+.section_heading h3 {margin-top: 1.5em; font-size: 1.5em;}
+.section_heading h4 {margin-top: 0; font-size: 1em;}
 
 ul.urls {list-style: none; display: inline; margin: 0;}
 .urls li {display: inline; margin: 0;}
@@ -88,3 +87,5 @@ li:after {content: " [" attr(class) "]"; color: #F88;}
 html{ background: url(../images/background.jpg); }
 div#header, div#footer { background: url(../images/content.jpg); }
 body{ color: #1B4F6E; }
+
+.gist{ font-size: 55%; }

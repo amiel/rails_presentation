@@ -8,3 +8,8 @@
 
 .addon{ position: absolute; top: -1em; line-height: 1em; font-size: 75%; }
 .incremental.addon{ display: none; }
+
+.slidecontent ul.table_schema{ float: left; border: 1px solid #1B4F6E; list-style-type: none; width: 40%; margin: 0 2%; padding: 0; }
+	.slidecontent ul.table_schema li{ padding: 0.4em 0.8em; margin: 0; }
+		.slidecontent ul.table_schema .type{ float: right; }
+	.slidecontent ul.table_schema li.table_name{ background-color: #1B4F6E; color: #fff; }

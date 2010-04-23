@@ -38,7 +38,7 @@
 
 	<div class="presentation">
 
-		<div class="slide">
+		<div class="slide section_heading">
 			<h1>Introduction to Ruby on Rails</h1>
 			<h2></h2>
 			<h3>Amiel Martin</h3>
@@ -69,25 +69,84 @@
     <div class="slide">
       <h1>What is Rails?</h1>
       <div class="slidecontent">
-        Ruby on Rails is an open-source web framework that's optimized for programmer happiness and sustainable productivity. It let's you write beautiful code by favoring convention over configuration.
+        <p>"Ruby on Rails is an open-source web framework that's optimized for programmer happiness and sustainable productivity. It let's you write beautiful code by favoring convention over configuration."</p>
+        <p>&mdash; the Elevator Pitch</p>
       </div>
     </div>
     
     <div class="slide">
       <h1>Rails Philosophy</h1>
-      <ul class="incremental">
+      <ul>
         <li>Convention over configuration</li>
         <li>MVC</li>
         <li>DRY</li>
+        <li>REST</li>
         <li>Testing</li>
       </ul>      
     </div>
-      
-      
+    
+    
     <div class="slide">
-      <h1></h1>
+      <h1>Convention over configuration</h1>
+      <div class="slidecontent">
+        <p>The Rails mantra of "convention over configuration" allows those familiar with the Rails framework to easily anticipate how the application works.</p>
+        <p>This can easily result in a highly maintainable code base.</p>
+      </div>
+    </div>
+    
+    <div class="slide">
+      <h1>MVC</h1>
+      <div class="slidecontent">
+        <dl>
+          <dt>Model</dt>
+          <dd class="incremental">Data logic, ORM</dd>
+          <dt>View</dt>
+          <dd class="incremental">Presentation layer, Templates</dd>
+          <dt>Controller</dt>
+          <dd class="incremental">Loads up models and renders the view</dd>
+        </dl>
+      </div>
+    </div>
+    
+    <div class="slide section_heading">
+      <h1>A Simple Example</h1>
     </div>
       
+    <div class="slide">
+      <h1>Example</h1>
+      
+      <div class="slidecontent">
+        <script src="http://gist.github.com/376118.js?file=result.html"></script>
+      </div>
+    </div>
+    
+    
+    <div class="slide">
+      <h1>Data</h1>
+      <div class="slidecontent">
+        <ul class="table_schema">
+          <li class="table_name">presenters</li>
+          <li>id<span class="type">integer</span></li>
+          <li>name<span class="type">string</span></li>
+        </ul>
+        
+        <ul class="table_schema">
+          <li class="table_name">talks</li>
+          <li>id<span class="type">integer</span></li>
+          <li>presenter_id<span class="type">integer</span></li>
+          <li>title<span class="type">string</span></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="slide">
+      <h1>Models</h1>
+      <div class="slidecontent">
+        <script src="http://gist.github.com/376118.js?file=presenter.rb"></script>
+        <script src="http://gist.github.com/376118.js?file=talk.rb"></script>
+      </div>
+    </div>
+    
 	</div>
 	
 
