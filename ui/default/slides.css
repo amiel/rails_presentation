@@ -15,7 +15,8 @@
 	.slidecontent ul.table_schema li.table_name{ background-color: #1B4F6E; color: #fff; }
 
 
-#result .gist, #wireframe .gist, #ar_examples .gist{ font-size: 55%; margin-top: -20px; }
+#result .gist, #wireframe .gist{ font-size: 55%; margin-top: -20px; }
+#ar_examples .gist{ margin-top: -20px; font-size: 65%; }
 #layout .gist{ font-size: 70%; }
 
 .slide ul.no-bullet{ list-style-type: none; }
