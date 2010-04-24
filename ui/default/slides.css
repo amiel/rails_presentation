@@ -14,9 +14,25 @@
 		.slidecontent ul.table_schema .type{ float: right; }
 	.slidecontent ul.table_schema li.table_name{ background-color: #1B4F6E; color: #fff; }
 
-#slide8 .gist{ font-size: 55%; margin-top: -20px; }
-#slide12 .gist{ font-size: 70%; }
+
+#result .gist, #wireframe .gist, #ar_examples .gist{ font-size: 55%; margin-top: -20px; }
+#layout .gist{ font-size: 70%; }
+
+.slide ul.no-bullet{ list-style-type: none; }
+.slide ul li ul.no-bullet{ list-style-type: none; }
+.slide ul li ul.no-bullet li{ list-style-type: none; }
+
+.slide h2{ margin-bottom: 10px; }
+
+.slide > img{ margin: 0 auto; display: block; }
+
+.highlight{ color: #de492f; }
 
 #presenters{ list-style-type: none; }
 	#presenters li{ padding-left: 75px; height: 64px; background: transparent no-repeat left center; }
 	#presenters .presenter{ display: block; color: #333; font-size: 75%; padding-top: 3px; }
+
+
+#presenters_wireframe{ list-style-type: none; }
+	#presenters_wireframe li{ padding-left: 75px; height: 64px; background: transparent no-repeat left center; }
+	#presenters_wireframe li span{ display: block; color: #333; font-size: 75%; padding-top: 3px; }

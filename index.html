@@ -8,7 +8,7 @@
 	<!-- metadata -->
 	<meta name="generator" content="S5" />
 	<meta name="version" content="S5 1.1" />
-	<meta name="presdate" content="201002203" />
+	<meta name="presdate" content="20100424" />
 	<meta name="author" content="Amiel Martin" />
 	<meta name="company" content="" />
 	<!-- configuration parameters -->
@@ -59,39 +59,102 @@
     
     <div class="slide">
       <h1>What is Rails?</h1>
-      <div class="slidecontent">
-        <p>"Ruby on Rails is an open-source web framework that's optimized for programmer happiness and sustainable productivity. It let's you write beautiful code by favoring convention over configuration."</p>
-        <p>&mdash; the Elevator Pitch</p>
-      </div>
+      <ul class="no-bullet">
+        <li>An Open Source</li>
+        <li>Full Stack</li>
+        <li class="highlight">Web Framework</li>
+        <li>
+          Optimized for
+          <ul class="no-bullet">
+            <li>Programmer Happiness</li>
+            <li>Sustainable Productivity</li>
+          </ul>
+        </li>
+      </ul>
     </div>
-    
+
     <div class="slide">
       <h1>Why Rails?</h1>
       <ul>
         <li>Ruby</li>
         <li>Rapid Development</li>
         <li>Rapid Prototyping</li>
-        <li>collaboration</li>
+        <li>Collaboration</li>
       </ul>
+    </div>
+    
+    <div class="slide">
+      <h1>Ruby is...</h1>
+      <ul class="no-bullet">
+        <li>A Dynamic</li>
+        <li>Open Source</li>
+        <li>Programming language</li>
+        <li>
+          focus on
+          <ul class="no-bullet">
+            <li>simplicity</li>
+            <li>productivity</li>
+          </ul>
+        </li>
+        <li>
+          elegant syntax
+          <ul class="no-bullet">
+            <li>natural to read</li>
+            <li>easy to write</li>
+          </ul>
+        </li>
+      </ul>
+      <div class="handout">
+        <p>A dynamic, open source prgramming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
+      </div>
+    </div>
+    
+    <div class="slide">
+      <h1>Ruby Examples</h1>
+      <div class="slidecontent">
+        <script src="http://gist.github.com/376118.js?file=ruby_examples.rb"></script>
+      </div>
     </div>
     
     <div class="slide">
       <h1>Rails Philosophy</h1>
       <ul>
         <li>Convention Over Configuration</li>
-        <li>MVC</li>
         <li>DRY</li>
         <li>Testing</li>
+        <li>MVC</li>
       </ul>      
     </div>
     
-    
     <div class="slide">
       <h1>Convention Over Configuration</h1>
-      <div class="slidecontent">
+      <ul>
+        <li>Get Started Quickly</li>
+        <li>Sane Defaults</li>
+        <li>Less configuration to maintain</li>
+      </ul>
+      <div class="handout">        
         <p>The Rails mantra of "convention over configuration" allows those familiar with the Rails framework to easily anticipate how the application works.</p>
         <p>This can easily result in a highly maintainable code base.</p>
       </div>
+    </div>
+    
+    <div class="slide">
+      <h1>DRY &mdash; Don&rsquo;t Repeat Yourself</h1>
+      <ul>
+        <li>Reduce human error</li>
+        <li>Save time</li>
+        <li>Improve maintainability</li>
+      </ul>
+    </div>
+    
+    <div class="slide">
+      <h1>Testing</h1>
+      <ul>
+        <li>Dynamic version of compile time checks</li>
+        <li>be confident that your changes didn&rsquo;t ruin anything</li>
+        <li>TDD &mdash; Test Driven Development</li>
+      </ul>
     </div>
     
     <div class="slide">
@@ -104,22 +167,44 @@
           <dd class="incremental">Presentation layer, Templates</dd>
           <dt>Controller</dt>
           <dd class="incremental">Loads up models and renders the view</dd>
+          <dt class="incremental">Helper</dt>
+          <dd class="incremental">Extract view logic from templates</dd>
         </dl>
       </div>
     </div>
     
-    <div class="slide section_heading">
-      <h1>A Simple Example</h1>
-    </div>
-      
     <div class="slide">
-      <h1>Example</h1>
-      
-      <div class="slidecontent">
-        <script src="http://gist.github.com/376118.js?file=result.html"></script>
-      </div>
+      <h1>MVC</h1>
+      <img src="ui/images/mvc.png" />
     </div>
     
+    <div class="slide section_heading">
+      <h1>A Simple Example in Rails</h1>
+    </div>
+    
+    <div class="slide">
+      <h1>Rails Example</h1>
+      <ul class="no-bullet">
+        <li>List of presentations with presenters name and gravatar</li>
+      </ul>
+    </div>
+    
+    <div class="slide">
+      <h1>Wireframe</h1>
+      <ol class="slidecontent" id="presenters_wireframe">
+        <li style="background-image: url(http://dummyimage.com/64x64/1B4F6E/fff.png&amp;text=gravatar);">consectetur adipisicing elit <span>sed do eiusmod</span></li>
+        <li style="background-image: url(http://dummyimage.com/64x64/1B4F6E/fff.png&amp;text=gravatar);">tempor incididunt ut labore <span>et dolore</span></li>
+        <li style="background-image: url(http://dummyimage.com/64x64/1B4F6E/fff.png&amp;text=gravatar);">Ut enim ad minim veniam <span>quis nostrud</span></li>
+        <li style="background-image: url(http://dummyimage.com/64x64/1B4F6E/fff.png&amp;text=gravatar);">exercitation ullamco <span>laboris nisi</span></li>
+      </ol>
+    </div>
+    
+    <div class="slide">
+      <h1>Wireframe</h1>
+      <div class="slidecontent" id="wireframe">
+        <script src="http://gist.github.com/376118.js?file=wireframe.html"></script>
+      </div>
+    </div>
     
     <div class="slide">
       <h1>Data</h1>
@@ -143,14 +228,21 @@
     <div class="slide">
       <h1>Models</h1>
       <div class="slidecontent">
-        <script src="http://gist.github.com/376118.js?file=presenter.rb"></script>
-        <script src="http://gist.github.com/376118.js?file=talk.rb"></script>
+        <script src="http://gist.github.com/376118.js?file=models.rb"></script>
+      </div>
+    </div>
+    
+    <div class="slide">
+      <h1>ActiveRecord Examples</h1>
+      <div class="slidecontent" id="ar_examples">
+        <script src="http://gist.github.com/376118.js?file=activerecord_examples.rb"></script>
       </div>
     </div>
     
     <div class="slide">
       <h1>Convention Over Configuration</h1>
       <div class="slidecontent">
+        <h2>Why convention over configuration rocks</h2>
         <script src="http://gist.github.com/376118.js?file=talk_with_defaults.rb"></script>
       </div>
     </div>
@@ -161,10 +253,10 @@
         <script src="http://gist.github.com/376118.js?file=presenter_with_gravatar.rb"></script>
       </div>
     </div>
-    
+
     <div class="slide">
       <h1>View Layout</h1>
-      <div class="slidecontent">
+      <div class="slidecontent" id="layout">
         <script src="http://gist.github.com/376118.js?file=application.html.erb"></script>
       </div>
     </div>
@@ -181,6 +273,14 @@
       <h1>Controller</h1>
       <div class="slidecontent">
         <script src="http://gist.github.com/376118.js?file=talks_controller.rb"></script>
+      </div>
+    </div>
+    
+    <div class="slide">
+      <h1>Example</h1>
+      
+      <div class="slidecontent" id="result">
+        <script src="http://gist.github.com/376118.js?file=result.html"></script>
       </div>
     </div>
     
