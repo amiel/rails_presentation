@@ -89,3 +89,4 @@ div#header, div#footer { background: url(../images/content.jpg); }
 body{ color: #1B4F6E; }
 
 .gist{ font-size: 75%; }
+.slide .gist .gist-file .gist-meta{ font-size: 55%; }
